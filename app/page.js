@@ -1,95 +1,70 @@
-import Image from "next/image";
-import styles from "./page.module.css";
-
+// fsdfdsfsfdstesttest
+import Navbar from '../app/component/nav';
+import Footer from '../app/component/footer';
 export default function Home() {
   return (
-    <main className={styles.main}>
-      <div className={styles.description}>
-        <p>
-          Get started by editing&nbsp;
-          <code className={styles.code}>app/page.js</code>
-        </p>
-        <div>
-          <a
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{" "}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className={styles.vercelLogo}
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+   <>
+      <Navbar />
+
+      <div id="carouselExample" class="carousel slide">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="/img/1.png" class="d-block w-100" alt="..."></img>
+        </div>
+        <div class="carousel-item">
+          <img src="/img/2.png" class="d-block w-100" alt="..."></img>
         </div>
       </div>
-
-      <div className={styles.center}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
       </div>
+      <br></br>
+      <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="/img/11.jpg" class="card-img-top custom-img"
+                        alt="Card Image"></img>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Furina</h5>
+                        <p class="card-text">ตัวละครระดับ 5 ดาว</p>
+                        <a href="#" class="btn btn-primary">Button</a>
+                    </div>
+                </div>
+            </div>
 
-      <div className={styles.grid}>
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Docs <span>-&gt;</span>
-          </h2>
-          <p>Find in-depth information about Next.js features and API.</p>
-        </a>
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="/img/11.jpg" class="custom-img"
+                        alt="Card Image"></img>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Furina</h5>
+                        <p class="card-text">ตัวละครระดับ 5 ดาว</p>
+                        <a href="#" class="btn btn-primary">Button</a>
+                    </div>
+                </div>
+            </div>
 
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Learn <span>-&gt;</span>
-          </h2>
-          <p>Learn about Next.js in an interactive course with&nbsp;quizzes!</p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Templates <span>-&gt;</span>
-          </h2>
-          <p>Explore starter templates for Next.js.</p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className={styles.card}
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2>
-            Deploy <span>-&gt;</span>
-          </h2>
-          <p>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+            <div class="col-md-4">
+                <div class="card mb-3">
+                    <img src="/img/11.jpg" class="card-img-top custom-img"
+                        alt="Card Image"></img>
+                    <div class="card-body text-center">
+                        <h5 class="card-title">Furina</h5>
+                        <p class="card-text">ตัวละครระดับ 5 ดาว</p>
+                        <a href="#" class="btn btn-primary">Button</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <Footer />
+   </>
   );
 }
