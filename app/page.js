@@ -32,8 +32,8 @@ export default function Home() {
                     <img src="/img/11.jpg" class="card-img-top custom-img"
                         alt="Card Image"></img>
                     <div class="card-body text-center">
-                        <h5 class="card-title">Furina</h5>
-                        <p class="card-text">ตัวละครระดับ 5 ดาว</p>
+                        <h5 class="card-title">Golden Rose</h5>
+                        <p class="card-text">สกิน Margarita Sere ระดับss</p>
                         <a href="#" class="btn btn-primary">Button</a>
                     </div>
                 </div>
