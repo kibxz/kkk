@@ -1,6 +1,6 @@
 /* app/components/Nav.module.css */
 .logo {
-    max-width: 70px; /* ปรับขนาดโลโก้ตามที่ต้องการ */
+    max-width: 50px; /* ปรับขนาดโลโก้ตามที่ต้องการ */
     height: auto; /* รักษาอัตราส่วนของโลโก้ */
     margin-left: 30px;
 }   
